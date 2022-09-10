@@ -1,0 +1,285 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif
+}
+
+
+
+.cont{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+.cont_top{
+    width: 100%;
+    height: 60%;
+    /* background-color: black; */
+    background-image: url(../img/car.png);
+    background-size: cover;
+    background-position:center;
+
+    
+}
+
+/* #img{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/9024019_snowflake_fill_icon.svg);
+
+    background-image: url(../img/216520_waves_icon.svg);
+} */
+
+.cont_button{
+    width: 100%;
+    height: 30%;
+}
+
+.cont_button_top{
+    width: 100%;
+    height: 50%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: center;
+}
+
+.cont_button_button{
+    width: 100%;
+    height: 83%;
+    /* background-color:blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont_button_top_one{
+    height: 100%;
+    width: 300px;
+    /* background-color:aqua; */
+    padding: 15px 10px 10px 80px;
+    position: relative;
+}
+
+.cont_button_top_two{
+    height: 100%;
+    width: 300px;
+    /* background-color: red; */
+    padding: 15px 10px 10px 10px;
+}
+
+.cont_button_button_one {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 110px;
+    /* background-color: red; */
+    margin: 10px;
+}
+.cont_button_button_two {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 110px;
+    /* background-color: red; */
+    margin: 10px;
+}
+.cont_button_button_three {
+    position: relative;
+    padding: 10px 15px;
+    width: 130px;
+    height: 110px;
+    /* background-color: red; */
+    margin: 10px;
+    /* display: block;
+    align-items: center;
+    justify-content: center; */
+}
+.cont_button_button_four {
+    padding: 10px;
+    width: 150px;
+    height: 110px;
+    /* background-color: red; */
+    margin: 10px;
+}
+/* .cont_button_button_five {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+} */
+
+.cont_top_one{
+    display: block;
+    background-image: url(../img/balon.png);
+    width: 90px;
+    height: 90px;
+    background-size: cover;
+    background-position:center;
+    top: 219px;
+    left: 508.5px;
+    position: absolute;
+    animation: balon 800000s ease;
+    background-color: black;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+/* .cont_top_one{
+    display: block;
+    background-image: url(../img/balon.png);
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position:center;
+    top: 215px;
+    left: 503px;
+    position: absolute;
+    animation: balon 800000s ease;
+    background-color: black;
+    border-radius: 100%;
+} */
+
+.cont_top_two{
+    display: block;
+    background-image: url(../img/balon.png);
+    width: 90px;
+    height: 90px;
+    /* border: 100%; */
+    border-radius: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position:center;
+    top: 219px;
+    right: 522px;
+    position: absolute;
+    animation: balon 800000s ease;
+    transition: .5s;
+}
+
+/* .cont_top_two{
+    display: block;
+    background-image: url(../img/balon.png);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: black;
+    background-size: cover;
+    background-position:center;
+    top: 214px;
+    right: 518px;
+    position: absolute;
+    animation: balon 800000s ease;
+} */
+
+.qq{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* background-color: black; */
+    /* display: flexbox; */
+}
+.qq2{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* background-color: black; */
+    /* display: flexbox; */
+}
+.qww button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+
+    background-color: white;
+}
+
+.qqz{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* background-color: black; */
+    /* display: flexbox; */
+}
+.qqz2{
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    /* background-color: black; */
+    /* display: flexbox; */
+}
+.qwwz button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+
+    background-color: white;
+}
+#qaz{
+    display: block;
+}
+#wsx{
+    display: block;
+}
+
+#km{
+    position: absolute;
+    top: 29px;
+    left: 70px;
+}
+
+#qqqw{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    /* background-color: red; */
+    /* width: 20px; */
+    /* height: 20px; */
+}
+#te{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#img{
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+#km2{
+    position: absolute;
+    bottom: 24px;
+    left: 140px;
+}
+
+@keyframes balon {
+
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-1000000000deg);
+    }
+
+
+    
+}
